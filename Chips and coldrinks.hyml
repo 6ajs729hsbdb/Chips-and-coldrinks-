@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chips & Cold Drinks Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍟 Chips & 🥤 Cold Drinks</h1>
+    <p>Fresh • Tasty • Affordable</p>
+</header>
+
+<section class="products">
+    <div class="card">
+        <img src="images/lays-coke.jpg" alt="Lays and Coke">
+        <h3>Lays + Coca Cola</h3>
+        <p>Perfect snack combo</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="images/lays-pepsi.jpg" alt="Lays and Pepsi">
+        <h3>Lays + Pepsi</h3>
+        <p>Classic taste combo</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="images/snacks.jpg" alt="Indian Snacks">
+        <h3>Indian Snacks Combo</h3>
+        <p>Kurkure, Too Yumm & Thums Up</p>
+        <button>Buy Now</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Chips & Cold Drinks Store</p>
+</footer>
+
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #ff3d00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card button {
+    background: #ff3d00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #e63600;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
